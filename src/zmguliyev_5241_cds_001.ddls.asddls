@@ -7,5 +7,5 @@ define view ZMGULIYEV_5241_cds_001 as select from mara
 left outer join makt on makt.matnr = mara.matnr
 {
    mara.matnr,
-   makt.maktx 
+   makt.maktx
 }
